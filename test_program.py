@@ -11,7 +11,7 @@ def test_program():
         assert filename in dir_files, f'Файл `{filename}` не найден в корне репозитория'
 
     try:
-        import program
+        import program1
     except Exception as e:
         assert False, (
             'Не удалось запустить `program.py`. '
